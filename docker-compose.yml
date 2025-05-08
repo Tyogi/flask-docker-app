@@ -4,7 +4,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - APP_MSG=🔥 Live reload in Docker!
+      - APP_MSG= Live reload in Docker!
     volumes:
       - .:/app
     command: python app.py
